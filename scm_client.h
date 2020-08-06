@@ -17,7 +17,11 @@
 #endif
 
 
-void test2();
+void watch();
+
+ft_http_client_t* http_init();
+
+void http_deinit(ft_http_client_t *client);
 
 long getCurrentTime();
 
